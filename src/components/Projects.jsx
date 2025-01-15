@@ -21,7 +21,14 @@ const Projects = () => {
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4 text-center lg:text-left">
-              <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
+              <a
+                href={project.gitLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={project.title}
+              >
+                <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
+              </a>
               <p className="mb-4 text-stone-400">{project.description}</p>
               <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
                 {project.technologies.map((tech, index) => (

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiHackerrank, SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks, SiHackerrank, SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
   return (
@@ -46,6 +46,14 @@ const Navbar = () => {
           aria-label="HackerRank"
         >
           <SiHackerrank className="text-[#2EC866]" /> {/* HackerRank color */}
+        </a>
+        <a
+          href="https://www.geeksforgeeks.org/user/maheshwaran6380/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="HackerRank"
+        >
+          <SiGeeksforgeeks className="text-[#19723a]" /> {/* HackerRank color */}
         </a>
       </div>
     </nav>

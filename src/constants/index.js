@@ -32,6 +32,7 @@ export const PROJECTS = [
     description:
       "An Application to manage student profiles, job postings, and company visits, facilitating seamless communication between students and recruiters",
     technologies: ["Flutter", "ExpressJS", "PostgreSQL", "Supabase", "RestAPI", "Github"],
+    gitLink : "https://github.com/maheshwaran-tr/placementapp-backend"
   },
   {
     title: "Seat Master",
@@ -39,6 +40,7 @@ export const PROJECTS = [
     description:
       "An Application Developed to Automate th Exam Hall Seating Arrangement system that optimizes seat allocation for students based on various criteria",
     technologies: ["Flutter", "SpringBoot", "MySQL", "RestAPI", "Github"],
+    gitLink : "https://github.com/maheshwaran-tr/SHA-BACKEND"
   },
   {
     title: "Portfolio Website",
@@ -46,6 +48,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind", "Github"],
+    gitLink : "https://github.com/maheshwaran-tr/portfolio"
   },
 ];
 
